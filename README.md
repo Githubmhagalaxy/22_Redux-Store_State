@@ -37,11 +37,11 @@ THEN I find that the app uses Redux instead of the Context API
 
 The following animations show the web application's appearance and functionality:
 
-![Demo](./Assets/22-state-homework-demo-01.gif) 
+![Demo](./assets/22-state-homework-demo-01.gif) 
 
-![Demo](./Assets/22-state-homework-demo-02.gif)
+![Demo](./assets/22-state-homework-demo-02.gif)
 
-![Demo](./Assets/22-state-homework-demo-03.gif)
+![Demo](./assets/22-state-homework-demo-03.gif)
 
 
 ### Getting Started
