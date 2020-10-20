@@ -42,6 +42,14 @@ const CategoryMenu = () => {
     return (
         <div>
             <h2>Choose a Category:</h2>
+            <button
+                key="allProducts"
+                onClick={() => {
+                    handleClick("allProducts");
+                }}
+            >
+                All Products
+            </button>
             {categories.map(item => (
                 <button
                     key={item._id}

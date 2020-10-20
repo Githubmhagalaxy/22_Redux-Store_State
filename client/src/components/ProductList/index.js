@@ -38,7 +38,9 @@ const ProductList = () => {
         if (!currentCategory) {
             return state.products;
         }
-        
+        if(currentCategory === "allProducts") {
+            return state.products;
+        }
         return state.products.filter(product => product.category._id === currentCategory);
     }
     
